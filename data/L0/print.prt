@@ -1,0 +1,53 @@
+Object = mdis2isis
+  IsisVersion       = "3.5.2.0 stable | 2018-04-06"
+  ProgramVersion    = 2018-01-17
+  ProgramPath       = /opt/ISIS3/isis/bin
+  ExecutionDateTime = 2018-08-30T18:31:21
+  HostName          = Unknown
+  UserName          = alf
+  Description       = "Import MESSENGER/MDIS EDR/RDR products into ISIS cubes"
+
+  Group = UserParameters
+    FROM  = ../RAW/.IMG
+    TO    = .cub
+    UNLUT = true
+  End_Group
+
+  Group = Error
+    Program = mdis2isis
+    Class   = "I/O ERROR"
+    Code    = 4
+    Message = "Unable to open [../RAW/.IMG]"
+    File    = Pvl.cpp
+    Line    = 86
+  End_Group
+End_Object
+
+
+Object = mdis2isis
+  IsisVersion       = "3.5.2.0 stable | 2018-04-06"
+  ProgramVersion    = 2018-01-17
+  ProgramPath       = /opt/ISIS3/isis/bin
+  ExecutionDateTime = 2018-08-30T18:31:39
+  HostName          = Unknown
+  UserName          = alf
+  Description       = "Import MESSENGER/MDIS EDR/RDR products into ISIS cubes"
+
+  Group = UserParameters
+    FROM  = ../RAW/EW0249037416G.IMG
+    TO    = EW0249037416G.cub
+    UNLUT = true
+  End_Group
+
+  Group = Error
+    Program = mdis2isis
+    Class   = "I/O ERROR"
+    Code    = 4
+    Message = "Unable to open
+               [/opt/ISIS3/data/messenger/translations/mdisInstrument.trn]"
+    File    = Pvl.cpp
+    Line    = 86
+  End_Group
+End_Object
+
+

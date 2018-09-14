@@ -1,0 +1,30 @@
+Group = Mapping
+  ProjectionName            = EQUIRECTANGULAR
+  TargetName                = Mercury
+  EquatorialRadius          = 2439400.0 <meters>
+  PolarRadius               = 2439400.0 <meters>
+  LatitudeType              = Planetocentric
+  LongitudeDirection        = PositiveEast
+  LongitudeDomain           = 360
+  PixelResolution           = 261.0 <meters/pixel>
+  Scale                     = 163.0 <pixels/degree>
+  MinPixelResolution        = 226.71373785991 <meters/pixel>
+  MaxPixelResolution        = 296.25399511256 <meters/pixel>
+  MinObliquePixelResolution = 226.71373785991 <meters/pixel>
+  MaxObliquePixelResolution = 303.49706005109 <meters/pixel>
+  CenterLongitude           = 120.0
+  CenterLatitude            = 27.0
+  MinimumLatitude           = 17.0
+  MaximumLatitude           = 37.0
+  MinimumLongitude          = 111.0
+  MaximumLongitude          = 128.0
+
+  # Actual Parameters without precision applied
+  PreciseCenterLongitude    = 119.59996915524
+  PreciseCenterLatitude     = 26.910224904011
+  PreciseMinimumLatitude    = 17.360172417438
+  PreciseMaximumLatitude    = 36.460277390583
+  PreciseMinimumLongitude   = 111.32920644885
+  PreciseMaximumLongitude   = 127.87073186163
+End_Group
+End
