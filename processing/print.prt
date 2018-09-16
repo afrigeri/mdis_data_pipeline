@@ -8097,3 +8097,108 @@ Object = isis2std
 End_Object
 
 
+Object = automos
+  IsisVersion       = "3.5.2.0 stable | 2018-04-06"
+  ProgramVersion    = 2017-11-20
+  ProgramPath       = /opt/ISIS3/isis/bin
+  ExecutionDateTime = 2018-09-16T19:21:24
+  HostName          = Unknown
+  UserName          = alf
+  Description       = "Create a mosaic using a list of map projected cubes"
+
+  Group = UserParameters
+    FROMLIST       = mos.lis
+    MOSAIC         = RaditladiBasin.cub
+    PRIORITY       = ONTOP
+    GRANGE         = AUTO
+    TRACK          = FALSE
+    MATCHBANDBIN   = TRUE
+    MATCHDEM       = FALSE
+    HIGHSATURATION = FALSE
+    LOWSATURATION  = FALSE
+    NULL           = FALSE
+  End_Group
+
+  Group = ImageLocation
+    File        = L2/EW0249037416G.lev2.cub
+    StartSample = 170
+    StartLine   = 1514
+  End_Group
+
+  Group = ImageLocation
+    File        = L2/EW0249037545G.lev2.cub
+    StartSample = 945
+    StartLine   = 1397
+  End_Group
+
+  Group = ImageLocation
+    File        = L2/EW0249037562G.lev2.cub
+    StartSample = 319
+    StartLine   = 740
+  End_Group
+
+  Group = ImageLocation
+    File        = L2/EW0249037671G.lev2.cub
+    StartSample = 1048
+    StartLine   = 705
+  End_Group
+
+  Group = ImageLocation
+    File        = L2/EW0249037688G.lev2.cub
+    StartSample = 467
+    StartLine   = 1
+  End_Group
+
+  Group = ImageLocation
+    File        = L2/EW0249066345G.lev2.cub
+    StartSample = 1
+    StartLine   = 854
+  End_Group
+
+  Group = ImageLocation
+    File        = L2/EW0249066407G.lev2.cub
+    StartSample = 70
+    StartLine   = 503
+  End_Group
+
+  Group = Accounting
+    ConnectTime = 00:00:00.7
+    CpuTime     = 00:00:00.7
+  End_Group
+End_Object
+
+
+Object = isis2std
+  IsisVersion       = "3.5.2.0 stable | 2018-04-06"
+  ProgramVersion    = 2015-02-12
+  ProgramPath       = /opt/ISIS3/isis/bin
+  ExecutionDateTime = 2018-09-16T19:21:25
+  HostName          = Unknown
+  UserName          = alf
+  Description       = "Exports a cube to a PNG, BMP, GIF, TIFF, JPEG, or JPEG
+                       2000"
+
+  Group = UserParameters
+    FROM       = RaditladiBasin.cub
+    TO         = RaditladiBasin.png
+    MODE       = GRAYSCALE
+    FORMAT     = PNG
+    QUALITY    = 100
+    STRETCH    = LINEAR
+    MINPERCENT = 0.5
+    MAXPERCENT = 99.5
+  End_Group
+
+  Group = Results
+    OutputFileName = RaditladiBasin.png
+    InputMinimum   = 0.044776073390305
+    InputMaximum   = 0.098882378805254
+  End_Group
+
+  Group = Accounting
+    ConnectTime = 00:00:00.7
+    CpuTime     = 00:00:00.7
+  End_Group
+End_Object
+
+
