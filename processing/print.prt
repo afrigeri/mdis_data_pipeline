@@ -5837,3 +5837,599 @@ Object = cubediff
 End_Object
 
 
+Object = photomet
+  IsisVersion       = "3.5.2.0 stable | 2018-04-06"
+  ProgramVersion    = 2016-11-16
+  ProgramPath       = /opt/ISIS3/isis/bin
+  ExecutionDateTime = 2018-09-16T19:30:48
+  HostName          = Unknown
+  UserName          = alf
+  Description       = "Perform photometric corrections on a cube"
+
+  Group = UserParameters
+    FROM           = L2/EW0249037416G.lev2.cub
+    TO             = L3/EW0249037416G.pho.cub
+    CHNGPAR        = None
+    MAXEMISSION    = 90.0
+    MAXINCIDENCE   = 90.0
+    USEDEM         = FALSE
+    ANGLESOURCE    = ELLIPSOID
+    PHTNAME        = hapkehen
+    THETA          = 17.76662946
+    WH             = 0.278080114
+    HG1            = 0.227774899
+    HG2            = 0.714203968
+    HH             = 0.075
+    B0             = 2.3
+    ZEROB0STANDARD = false
+    NORMNAME       = albedo
+    INCREF         = 30.0
+    INCMAT         = 0.0
+    THRESH         = 10e30
+    ALBEDO         = 1.0
+  End_Group
+
+  Group = NormalizationModelParametersUsed
+    NORMNAME = ALBEDO
+    INCREF   = 30.0
+    THRESH   = 1.0e+31
+    ALBEDO   = 1.0
+  End_Group
+
+  Group = AtmosphericModelParametersUsed
+  End_Group
+
+  Group = PhotometricModelParametersUsed
+    PHTNAME        = HAPKEHEN
+    THETA          = 17.76662946
+    WH             = 0.278080114
+    HH             = 0.075
+    B0             = 2.3
+    ZEROB0STANDARD = FALSE
+    HG1            = 0.227774899
+    HG2            = 0.714203968
+  End_Group
+
+  Group = Accounting
+    ConnectTime = 00:00:28.4
+    CpuTime     = 00:00:28.4
+  End_Group
+End_Object
+
+
+Object = photomet
+  IsisVersion       = "3.5.2.0 stable | 2018-04-06"
+  ProgramVersion    = 2016-11-16
+  ProgramPath       = /opt/ISIS3/isis/bin
+  ExecutionDateTime = 2018-09-16T19:31:17
+  HostName          = Unknown
+  UserName          = alf
+  Description       = "Perform photometric corrections on a cube"
+
+  Group = UserParameters
+    FROM           = L2/EW0249037545G.lev2.cub
+    TO             = L3/EW0249037545G.pho.cub
+    CHNGPAR        = None
+    MAXEMISSION    = 90.0
+    MAXINCIDENCE   = 90.0
+    USEDEM         = FALSE
+    ANGLESOURCE    = ELLIPSOID
+    PHTNAME        = hapkehen
+    THETA          = 17.76662946
+    WH             = 0.278080114
+    HG1            = 0.227774899
+    HG2            = 0.714203968
+    HH             = 0.075
+    B0             = 2.3
+    ZEROB0STANDARD = false
+    NORMNAME       = albedo
+    INCREF         = 30.0
+    INCMAT         = 0.0
+    THRESH         = 10e30
+    ALBEDO         = 1.0
+  End_Group
+
+  Group = NormalizationModelParametersUsed
+    NORMNAME = ALBEDO
+    INCREF   = 30.0
+    THRESH   = 1.0e+31
+    ALBEDO   = 1.0
+  End_Group
+
+  Group = AtmosphericModelParametersUsed
+  End_Group
+
+  Group = PhotometricModelParametersUsed
+    PHTNAME        = HAPKEHEN
+    THETA          = 17.76662946
+    WH             = 0.278080114
+    HH             = 0.075
+    B0             = 2.3
+    ZEROB0STANDARD = FALSE
+    HG1            = 0.227774899
+    HG2            = 0.714203968
+  End_Group
+
+  Group = Accounting
+    ConnectTime = 00:00:24.7
+    CpuTime     = 00:00:24.7
+  End_Group
+End_Object
+
+
+Object = photomet
+  IsisVersion       = "3.5.2.0 stable | 2018-04-06"
+  ProgramVersion    = 2016-11-16
+  ProgramPath       = /opt/ISIS3/isis/bin
+  ExecutionDateTime = 2018-09-16T19:31:42
+  HostName          = Unknown
+  UserName          = alf
+  Description       = "Perform photometric corrections on a cube"
+
+  Group = UserParameters
+    FROM           = L2/EW0249037562G.lev2.cub
+    TO             = L3/EW0249037562G.pho.cub
+    CHNGPAR        = None
+    MAXEMISSION    = 90.0
+    MAXINCIDENCE   = 90.0
+    USEDEM         = FALSE
+    ANGLESOURCE    = ELLIPSOID
+    PHTNAME        = hapkehen
+    THETA          = 17.76662946
+    WH             = 0.278080114
+    HG1            = 0.227774899
+    HG2            = 0.714203968
+    HH             = 0.075
+    B0             = 2.3
+    ZEROB0STANDARD = false
+    NORMNAME       = albedo
+    INCREF         = 30.0
+    INCMAT         = 0.0
+    THRESH         = 10e30
+    ALBEDO         = 1.0
+  End_Group
+
+  Group = NormalizationModelParametersUsed
+    NORMNAME = ALBEDO
+    INCREF   = 30.0
+    THRESH   = 1.0e+31
+    ALBEDO   = 1.0
+  End_Group
+
+  Group = AtmosphericModelParametersUsed
+  End_Group
+
+  Group = PhotometricModelParametersUsed
+    PHTNAME        = HAPKEHEN
+    THETA          = 17.76662946
+    WH             = 0.278080114
+    HH             = 0.075
+    B0             = 2.3
+    ZEROB0STANDARD = FALSE
+    HG1            = 0.227774899
+    HG2            = 0.714203968
+  End_Group
+
+  Group = Accounting
+    ConnectTime = 00:00:23.1
+    CpuTime     = 00:00:23.1
+  End_Group
+End_Object
+
+
+Object = photomet
+  IsisVersion       = "3.5.2.0 stable | 2018-04-06"
+  ProgramVersion    = 2016-11-16
+  ProgramPath       = /opt/ISIS3/isis/bin
+  ExecutionDateTime = 2018-09-16T19:32:05
+  HostName          = Unknown
+  UserName          = alf
+  Description       = "Perform photometric corrections on a cube"
+
+  Group = UserParameters
+    FROM           = L2/EW0249037671G.lev2.cub
+    TO             = L3/EW0249037671G.pho.cub
+    CHNGPAR        = None
+    MAXEMISSION    = 90.0
+    MAXINCIDENCE   = 90.0
+    USEDEM         = FALSE
+    ANGLESOURCE    = ELLIPSOID
+    PHTNAME        = hapkehen
+    THETA          = 17.76662946
+    WH             = 0.278080114
+    HG1            = 0.227774899
+    HG2            = 0.714203968
+    HH             = 0.075
+    B0             = 2.3
+    ZEROB0STANDARD = false
+    NORMNAME       = albedo
+    INCREF         = 30.0
+    INCMAT         = 0.0
+    THRESH         = 10e30
+    ALBEDO         = 1.0
+  End_Group
+
+  Group = NormalizationModelParametersUsed
+    NORMNAME = ALBEDO
+    INCREF   = 30.0
+    THRESH   = 1.0e+31
+    ALBEDO   = 1.0
+  End_Group
+
+  Group = AtmosphericModelParametersUsed
+  End_Group
+
+  Group = PhotometricModelParametersUsed
+    PHTNAME        = HAPKEHEN
+    THETA          = 17.76662946
+    WH             = 0.278080114
+    HH             = 0.075
+    B0             = 2.3
+    ZEROB0STANDARD = FALSE
+    HG1            = 0.227774899
+    HG2            = 0.714203968
+  End_Group
+
+  Group = Accounting
+    ConnectTime = 00:00:20.3
+    CpuTime     = 00:00:20.3
+  End_Group
+End_Object
+
+
+Object = photomet
+  IsisVersion       = "3.5.2.0 stable | 2018-04-06"
+  ProgramVersion    = 2016-11-16
+  ProgramPath       = /opt/ISIS3/isis/bin
+  ExecutionDateTime = 2018-09-16T19:32:25
+  HostName          = Unknown
+  UserName          = alf
+  Description       = "Perform photometric corrections on a cube"
+
+  Group = UserParameters
+    FROM           = L2/EW0249037688G.lev2.cub
+    TO             = L3/EW0249037688G.pho.cub
+    CHNGPAR        = None
+    MAXEMISSION    = 90.0
+    MAXINCIDENCE   = 90.0
+    USEDEM         = FALSE
+    ANGLESOURCE    = ELLIPSOID
+    PHTNAME        = hapkehen
+    THETA          = 17.76662946
+    WH             = 0.278080114
+    HG1            = 0.227774899
+    HG2            = 0.714203968
+    HH             = 0.075
+    B0             = 2.3
+    ZEROB0STANDARD = false
+    NORMNAME       = albedo
+    INCREF         = 30.0
+    INCMAT         = 0.0
+    THRESH         = 10e30
+    ALBEDO         = 1.0
+  End_Group
+
+  Group = NormalizationModelParametersUsed
+    NORMNAME = ALBEDO
+    INCREF   = 30.0
+    THRESH   = 1.0e+31
+    ALBEDO   = 1.0
+  End_Group
+
+  Group = AtmosphericModelParametersUsed
+  End_Group
+
+  Group = PhotometricModelParametersUsed
+    PHTNAME        = HAPKEHEN
+    THETA          = 17.76662946
+    WH             = 0.278080114
+    HH             = 0.075
+    B0             = 2.3
+    ZEROB0STANDARD = FALSE
+    HG1            = 0.227774899
+    HG2            = 0.714203968
+  End_Group
+
+  Group = Accounting
+    ConnectTime = 00:00:19.1
+    CpuTime     = 00:00:19.1
+  End_Group
+End_Object
+
+
+Object = photomet
+  IsisVersion       = "3.5.2.0 stable | 2018-04-06"
+  ProgramVersion    = 2016-11-16
+  ProgramPath       = /opt/ISIS3/isis/bin
+  ExecutionDateTime = 2018-09-16T19:32:44
+  HostName          = Unknown
+  UserName          = alf
+  Description       = "Perform photometric corrections on a cube"
+
+  Group = UserParameters
+    FROM           = L2/EW0249066345G.lev2.cub
+    TO             = L3/EW0249066345G.pho.cub
+    CHNGPAR        = None
+    MAXEMISSION    = 90.0
+    MAXINCIDENCE   = 90.0
+    USEDEM         = FALSE
+    ANGLESOURCE    = ELLIPSOID
+    PHTNAME        = hapkehen
+    THETA          = 17.76662946
+    WH             = 0.278080114
+    HG1            = 0.227774899
+    HG2            = 0.714203968
+    HH             = 0.075
+    B0             = 2.3
+    ZEROB0STANDARD = false
+    NORMNAME       = albedo
+    INCREF         = 30.0
+    INCMAT         = 0.0
+    THRESH         = 10e30
+    ALBEDO         = 1.0
+  End_Group
+
+  Group = NormalizationModelParametersUsed
+    NORMNAME = ALBEDO
+    INCREF   = 30.0
+    THRESH   = 1.0e+31
+    ALBEDO   = 1.0
+  End_Group
+
+  Group = AtmosphericModelParametersUsed
+  End_Group
+
+  Group = PhotometricModelParametersUsed
+    PHTNAME        = HAPKEHEN
+    THETA          = 17.76662946
+    WH             = 0.278080114
+    HH             = 0.075
+    B0             = 2.3
+    ZEROB0STANDARD = FALSE
+    HG1            = 0.227774899
+    HG2            = 0.714203968
+  End_Group
+
+  Group = Accounting
+    ConnectTime = 00:00:23.7
+    CpuTime     = 00:00:23.7
+  End_Group
+End_Object
+
+
+Object = photomet
+  IsisVersion       = "3.5.2.0 stable | 2018-04-06"
+  ProgramVersion    = 2016-11-16
+  ProgramPath       = /opt/ISIS3/isis/bin
+  ExecutionDateTime = 2018-09-16T19:33:08
+  HostName          = Unknown
+  UserName          = alf
+  Description       = "Perform photometric corrections on a cube"
+
+  Group = UserParameters
+    FROM           = L2/EW0249066407G.lev2.cub
+    TO             = L3/EW0249066407G.pho.cub
+    CHNGPAR        = None
+    MAXEMISSION    = 90.0
+    MAXINCIDENCE   = 90.0
+    USEDEM         = FALSE
+    ANGLESOURCE    = ELLIPSOID
+    PHTNAME        = hapkehen
+    THETA          = 17.76662946
+    WH             = 0.278080114
+    HG1            = 0.227774899
+    HG2            = 0.714203968
+    HH             = 0.075
+    B0             = 2.3
+    ZEROB0STANDARD = false
+    NORMNAME       = albedo
+    INCREF         = 30.0
+    INCMAT         = 0.0
+    THRESH         = 10e30
+    ALBEDO         = 1.0
+  End_Group
+
+  Group = NormalizationModelParametersUsed
+    NORMNAME = ALBEDO
+    INCREF   = 30.0
+    THRESH   = 1.0e+31
+    ALBEDO   = 1.0
+  End_Group
+
+  Group = AtmosphericModelParametersUsed
+  End_Group
+
+  Group = PhotometricModelParametersUsed
+    PHTNAME        = HAPKEHEN
+    THETA          = 17.76662946
+    WH             = 0.278080114
+    HH             = 0.075
+    B0             = 2.3
+    ZEROB0STANDARD = FALSE
+    HG1            = 0.227774899
+    HG2            = 0.714203968
+  End_Group
+
+  Group = Accounting
+    ConnectTime = 00:00:21.7
+    CpuTime     = 00:00:21.7
+  End_Group
+End_Object
+
+
+Object = automos
+  IsisVersion       = "3.5.2.0 stable | 2018-04-06"
+  ProgramVersion    = 2017-11-20
+  ProgramPath       = /opt/ISIS3/isis/bin
+  ExecutionDateTime = 2018-09-16T19:33:30
+  HostName          = Unknown
+  UserName          = alf
+  Description       = "Create a mosaic using a list of map projected cubes"
+
+  Group = UserParameters
+    FROMLIST       = mos.lis
+    MOSAIC         = RaditladiBasin.cub
+    PRIORITY       = ONTOP
+    GRANGE         = AUTO
+    TRACK          = FALSE
+    MATCHBANDBIN   = TRUE
+    MATCHDEM       = FALSE
+    HIGHSATURATION = FALSE
+    LOWSATURATION  = FALSE
+    NULL           = FALSE
+  End_Group
+
+  Group = ImageLocation
+    File        = L3/EW0249037416G.pho.cub
+    StartSample = 170
+    StartLine   = 1514
+  End_Group
+
+  Group = ImageLocation
+    File        = L3/EW0249037545G.pho.cub
+    StartSample = 945
+    StartLine   = 1397
+  End_Group
+
+  Group = ImageLocation
+    File        = L3/EW0249037562G.pho.cub
+    StartSample = 319
+    StartLine   = 740
+  End_Group
+
+  Group = ImageLocation
+    File        = L3/EW0249037671G.pho.cub
+    StartSample = 1048
+    StartLine   = 705
+  End_Group
+
+  Group = ImageLocation
+    File        = L3/EW0249037688G.pho.cub
+    StartSample = 467
+    StartLine   = 1
+  End_Group
+
+  Group = ImageLocation
+    File        = L3/EW0249066345G.pho.cub
+    StartSample = 1
+    StartLine   = 854
+  End_Group
+
+  Group = ImageLocation
+    File        = L3/EW0249066407G.pho.cub
+    StartSample = 70
+    StartLine   = 503
+  End_Group
+
+  Group = Accounting
+    ConnectTime = 00:00:00.7
+    CpuTime     = 00:00:00.7
+  End_Group
+End_Object
+
+
+Object = automos
+  IsisVersion       = "3.5.2.0 stable | 2018-04-06"
+  ProgramVersion    = 2017-11-20
+  ProgramPath       = /opt/ISIS3/isis/bin
+  ExecutionDateTime = 2018-09-16T19:39:14
+  HostName          = Unknown
+  UserName          = alf
+  Description       = "Create a mosaic using a list of map projected cubes"
+
+  Group = UserParameters
+    FROMLIST       = mos.lis
+    MOSAIC         = RaditladiBasin.cub
+    PRIORITY       = ONTOP
+    GRANGE         = AUTO
+    TRACK          = FALSE
+    MATCHBANDBIN   = TRUE
+    MATCHDEM       = FALSE
+    HIGHSATURATION = FALSE
+    LOWSATURATION  = FALSE
+    NULL           = FALSE
+  End_Group
+
+  Group = ImageLocation
+    File        = L3/EW0249037416G.pho.cub
+    StartSample = 170
+    StartLine   = 1514
+  End_Group
+
+  Group = ImageLocation
+    File        = L3/EW0249037545G.pho.cub
+    StartSample = 945
+    StartLine   = 1397
+  End_Group
+
+  Group = ImageLocation
+    File        = L3/EW0249037562G.pho.cub
+    StartSample = 319
+    StartLine   = 740
+  End_Group
+
+  Group = ImageLocation
+    File        = L3/EW0249037671G.pho.cub
+    StartSample = 1048
+    StartLine   = 705
+  End_Group
+
+  Group = ImageLocation
+    File        = L3/EW0249037688G.pho.cub
+    StartSample = 467
+    StartLine   = 1
+  End_Group
+
+  Group = ImageLocation
+    File        = L3/EW0249066345G.pho.cub
+    StartSample = 1
+    StartLine   = 854
+  End_Group
+
+  Group = ImageLocation
+    File        = L3/EW0249066407G.pho.cub
+    StartSample = 70
+    StartLine   = 503
+  End_Group
+
+  Group = Accounting
+    ConnectTime = 00:00:00.8
+    CpuTime     = 00:00:00.7
+  End_Group
+End_Object
+
+
+Object = isis2std
+  IsisVersion       = "3.5.2.0 stable | 2018-04-06"
+  ProgramVersion    = 2015-02-12
+  ProgramPath       = /opt/ISIS3/isis/bin
+  ExecutionDateTime = 2018-09-16T19:39:15
+  HostName          = Unknown
+  UserName          = alf
+  Description       = "Exports a cube to a PNG, BMP, GIF, TIFF, JPEG, or JPEG
+                       2000"
+
+  Group = UserParameters
+    FROM       = RaditladiBasin.cub
+    TO         = RaditladiBasin.png
+    MODE       = GRAYSCALE
+    FORMAT     = PNG
+    QUALITY    = 100
+    STRETCH    = LINEAR
+    MINPERCENT = 0.5
+    MAXPERCENT = 99.5
+  End_Group
+
+  Group = Results
+    OutputFileName = RaditladiBasin.png
+    InputMinimum   = 0.058893682929615
+    InputMaximum   = 0.11960816891356
+  End_Group
+
+  Group = Accounting
+    ConnectTime = 00:00:00.8
+    CpuTime     = 00:00:00.7
+  End_Group
+End_Object
+
+
