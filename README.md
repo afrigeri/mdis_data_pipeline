@@ -2,7 +2,7 @@
 
 This is the application of git for a planetary data processing pipeline, we will be using USGS's ISIS3 and MDIS data.
 
-We will be following the process suggested in the !(MESSENGER MDIS Data Users' Workshop 2013)[https://pds-imaging.jpl.nasa.gov/documentation/MESSENGER_MDIS_WorkShop_LPSC2103.pdf] by Kris Becker, Tammy Becker and Tren Hare of USGS Atrogeology Science Center.
+We will be following the process suggested in the [MESSENGER MDIS Data Users' Workshop 2013](https://pds-imaging.jpl.nasa.gov/documentation/MESSENGER_MDIS_WorkShop_LPSC2103.pdf) by Kris Becker, Tammy Becker and Tren Hare of USGS Atrogeology Science Center.
 
 # Background
 
