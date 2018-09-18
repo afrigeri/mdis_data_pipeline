@@ -21,5 +21,11 @@ Current branches are:
   * no photometric correction
   * photometric correction (n1) following USGS training flow
   * photometric corrrection n2: sligtly different processing
+  
+
+# Referencing this 
+
+This work has been firstly presented at EPSC 2018 in Berlin: [Using Git in Planetary Research](https://meetingorganizer.copernicus.org/EPSC2018/EPSC2018-1058-2.pdf)
+  
 
 
