@@ -23,7 +23,7 @@ Current branches are:
   * photometric corrrection n2: sligtly different processing
   
 
-# Referencing this 
+# Reference 
 
 This work has been firstly presented on Sept 2018 EPSC 2018 in Berlin: [Using Git in Planetary Research](https://meetingorganizer.copernicus.org/EPSC2018/EPSC2018-1058-2.pdf)
   
